@@ -1,6 +1,6 @@
 import { FaMoneyCheck, FaBookOpen  } from 'react-icons/fa';
 const Card = ({card, handleSelect}) => {
-    const {id, title, description, credit, price, image}=card
+    const {title, description, credit, price, image}=card
   return (
     <div>
       <div className="card p-4 bg-white rounded-lg shadow-xl space-y-3">
