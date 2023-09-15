@@ -1,4 +1,6 @@
 import { FaMoneyCheck, FaBookOpen  } from 'react-icons/fa';
+import PropTypes from 'prop-types';
+
 const Card = ({card, handleSelect}) => {
     const {title, description, credit, price, image}=card
   return (
@@ -16,7 +18,7 @@ const Card = ({card, handleSelect}) => {
           <p>{description.slice(0, 100)}  <a href="#" className="text-blue-400">See More</a></p>
           <div className='flex justify-between items-center gap-2'>
             <div className='flex items-center gap-2'>
-                <FaMoneyCheck /> Price: {price}BDT
+                <FaMoneyCheck /> Price: {price}USD
             </div>
             <div className='flex items-center gap-2'>
                 <FaBookOpen /> Credit: {credit}hr
@@ -29,6 +31,11 @@ const Card = ({card, handleSelect}) => {
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  card: PropTypes.object.isRequired,
+  handleSelect: PropTypes.func.isRequired
 };
 
 export default Card;
