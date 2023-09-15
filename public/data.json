@@ -3,32 +3,32 @@
     "id": "01",
     "title": "Introduction to Programming",
     "description": "This course covers the basic concepts and techniques of programming, such as variables, data types, control structures, functions, and arrays. Students will learn how to write, test, and debug simple programs using Python.",
-    "credit": 1,
-    "price": 1000,
+    "credit": 5,
+    "price": 6000,
     "image": "https://i.ibb.co/mzJ8cTm/Introduction-to-Programming.png"
   },
   {
     "id": "02",
-    "title": "Data Structures and Algorithms",
+    "title": "Problem Solving",
     "description": "This course introduces the fundamental data structures and algorithms for problem solving, such as lists, stacks, queues, trees, graphs, sorting, searching, and hashing. Students will learn how to analyze the time and space complexity of algorithms and implement them using Python.",
     "credit": 4,
-    "price": 1200,
-    "image": "https://i.ibb.co/qyNK7bs/Data-Structures-and-Algorithms.jpg"
+    "price": 2100,
+    "image": "https://i.ibb.co/3sPBtvz/Problem-Solving.png"
   },
   {
     "id": "03",
     "title": "Web Development",
     "description": "This course teaches the principles and practices of web development, such as HTML, CSS, JavaScript, DOM, AJAX, and REST. Students will learn how to design, develop, and deploy interactive web applications using Flask and React.",
-    "credit": 3,
-    "price": 1500,
+    "credit": 7,
+    "price": 5100,
     "image": "https://i.ibb.co/1ZjT7sr/Web-Development.jpg"
   },
   {
     "id": "04",
     "title": "Database Systems",
     "description": "This course covers the concepts and techniques of database systems, such as relational model, SQL, entity-relationship model, normalization, transaction processing, concurrency control, recovery, and indexing. Students will learn how to design, implement, and query databases using MySQL.",
-    "credit": 2,
-    "price": 1300,
+    "credit": 7,
+    "price": 3100,
     "image": "https://i.ibb.co/ySj1nBq/Database-Systems.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Artificial Intelligence",
     "description": "This course introduces the principles and applications of artificial intelligence ,such as search ,knowledge representation ,reasoning ,planning ,machine learning ,natural language processing ,computer vision ,and robotics .Students will learn how to use Python libraries and frameworks such as NumPy ,SciPy ,scikit-learn ,TensorFlow ,and PyTorch to implement AI algorithms and systems .",
     "credit": 4,
-    "price": 1800,
+    "price": 8100,
     "image": "https://i.ibb.co/719SX7D/Artificial-Intelligence.jpg"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Operating Systems",
     "description": "This course explores the design and implementation of operating systems ,such as processes ,threads ,synchronization ,memory management ,file systems ,I/O devices ,networking ,security ,and virtualization .Students will learn how to use C and Linux to develop system programs and kernel modules .",
     "credit": 6,
-    "price": 1600,
+    "price": 6100,
     "image": "https://i.ibb.co/sFHRR7Z/Operating-Systems.jpg"
   },
   {
@@ -52,23 +52,23 @@
     "title": "Software Engineering",
     "description": "This course covers the software engineering process ,such as requirements analysis ,design ,development ,testing ,deployment ,maintenance ,and documentation .Students will learn how to use software engineering tools and methods such as UML ,agile development ,version control ,testing frameworks ,debugging tools ,and documentation tools .",
     "credit": 3,
-    "price": 1400,
+    "price": 4100,
     "image": "https://i.ibb.co/XxMvprg/Software-Engineering.png"
   },
   {
     "id": "08",
     "title": "Computer Networks",
     "description": "This course introduces the fundamentals and applications of computer networks ,such as network architectures ,protocols ,services ,security ,and performance .Students will learn how to use socket programming and network tools such as Wireshark and ns-3 to analyze and simulate network behaviors .",
-    "credit": 2,
-    "price": 1500,
+    "credit": 7,
+    "price": 5100,
     "image": "https://i.ibb.co/bJBcRzk/Computer-Networks.png"
   },
   {
     "id": "09",
     "title": "Computer Graphics",
     "description": "This course teaches the principles and techniques of computer graphics ,such as rasterization ,transformation ,illumination ,shading ,texture mapping ,ray tracing ,animation ,and rendering .Students will learn how to use OpenGL and WebGL to create interactive graphics applications .",
-    "credit": 5,
-    "price": 1700,
+    "credit": 4,
+    "price": 7100,
     "image": "https://i.ibb.co/sWcrw88/Computer-Graphics.jpg"
   },
   {
@@ -76,15 +76,15 @@
     "title": "Human-Computer Interaction",
     "description": "This course studies the design and evaluation of user interfaces for computers and other devices .Students will learn how to apply human factors principles and usability methods to create effective and user-friendly interfaces .Students will also learn how to use prototyping tools and user testing techniques to evaluate their designs .",
     "credit": 2,
-    "price": 1400,
+    "price": 10000,
     "image": "https://i.ibb.co/Sr3wcrQ/Human-Computer-Interaction.png"
   },
   {
     "id": "11",
     "title": "Cyber Security",
     "description": "This course examines the threats and defenses of cybersecurity in various domains such as web applications ,networks ,systems ,cryptography ,cloud computing ,IoT devices ,mobile devices ,etc .Students will learn how to use security tools and techniques such as encryption algorithms ,authentication protocols ,firewalls ,intrusion detection systems ,malware analysis tools etc .to protect data and systems from cyberattacks .",
-    "credit": 3,
-    "price": 1900,
+    "credit": 6,
+    "price": 9100,
     "image": "https://i.ibb.co/m04Kvw6/Cyber-Security.jpg"
   },
   {

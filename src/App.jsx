@@ -10,14 +10,14 @@ function App() {
   const [selectedCards, setSelectedCards] = useState([]);
   const [remainingCredit, setRemainingCredit] = useState(20);
   const [totalCredit, setTotalCredit] = useState(0);
-  const [totalPrice, setTotalPrice] = useState(0)
+  const [totalPrice, setTotalPrice] = useState(0);
   const handleSelect = (card) => {
     console.log(card.id);
     const isExist = selectedCards.find((item) => item.id == card.id);
     let credit = card.credit;
     let totalCoursePrice = card.price;
     if (isExist) {
-      toast.error("This Course Already Added", {
+      toast.error("This course is already selected", {
         position: "top-center",
       });
     } else {
@@ -45,7 +45,7 @@ function App() {
       <div>
         <Header></Header>
       </div>
-      <div className="flex flex-col md:flex-row gap-5 text-left">
+      <div className="flex flex-col md:justify-center md:w-full md:flex-row gap-5 text-left">
         <Cards handleSelect={handleSelect}></Cards>
         <Cart
           selectedCards={selectedCards}
