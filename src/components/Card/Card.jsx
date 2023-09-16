@@ -4,7 +4,7 @@ import { FaBookOpen, FaMoneyCheck } from "react-icons/fa";
 const Card = ({ card, handleSelect }) => {
   const { title, description, credit, price, image } = card;
   return (
-    <div className="card p-4 bg-white rounded-lg shadow-xl space-y-3">
+    <div className="card p-4 bg-white rounded-lg shadow-xl space-y-4">
       <div className="flex flex-col justify-between h-full gap-3">
         <div>
         <figure>
@@ -17,19 +17,19 @@ const Card = ({ card, handleSelect }) => {
           </p>
         </div>
       </div>
-      <div className="space-y-2">
+      <div className="space-y-3">
         <div className="flex justify-between items-center gap-2">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center text-gray-800 gap-2">
             <FaMoneyCheck /> Price: {price}USD
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center text-gray-800 gap-2">
             <FaBookOpen /> Credit: {credit}hr
           </div>
         </div>
         <div className="card-actions">
           <button
             onClick={() => handleSelect(card)}
-            className="btn w-full bg-blue-600 p-2 rounded-lg text-white"
+            className="btn w-full bg-blue-600 hover:bg-blue-900 p-2 font-semibold rounded-lg text-white"
           >
             Select
           </button>

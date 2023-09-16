@@ -25,7 +25,6 @@ function App() {
         credit = credit + item.credit;
         totalCoursePrice = totalCoursePrice + item.price;
       });
-
       const remaining = 20 - credit;
       if (credit > 20) {
         toast.error("Your course credit is limited", {
@@ -50,8 +49,8 @@ function App() {
         <Cart
           selectedCards={selectedCards}
           remainingCredit={remainingCredit}
-          totalCredit = {totalCredit}
-          totalPrice ={totalPrice}
+          totalCredit={totalCredit}
+          totalPrice={totalPrice}
         ></Cart>
       </div>
       <ToastContainer></ToastContainer>
